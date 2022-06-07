@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-html-css.css">
+    <title>Pseudo</title>
+    <style>
+        div.ex {
+            text-align: center;
+            display: inline-flex;
+            background-color: lightgray;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+        }
+        div.ex:hover {
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="topo" >
+        <nav>
+            <a href="seletores.html">Seletores</a>
+            <a href="pseudo.html">Pseudo Elementos</a>
+            <a href="herdeiros.html">Herdeiros</a>
+            <a href="caixas.html">Box-Model</a>
+        </nav>
+        <h1>ESTRUTURA CSS</h1>
+    </header>    
+        <h1>Pseudo-classes e Pseudo-elementos</h1>
+        <h2>Pseudo-classes</h2>
+        <div class="texto">
+            <p>É uma palavra-chave que adiciona um estado especial a um elemento, ela se posiciona logo após do sinal de dois pontos
+            <br>
+            exemplo: <strong>.classe:hover</strong>
+            <br>
+            São elas:</p>
+            <ul>
+                <li>hover</li>              
+                <li>visited</li>           
+                <li>active</li>
+                <li>checked</li>
+                <li>empty</li>
+                <li>focus</li>
+            </ul>
+        </div>
+        <p>EXEMPLO DE UM HOVER</p>
+            <div class="ex">1</div>
+            <div class="ex">2</div>
+            <div class="ex">3</div>
+        <h2>Pseudo-elementos</h2>
+        <p>São palavra-chaves adicionada ás declarações de um seletor através de dois sinais de dois pontos e permite que formate um pedaço especifico do elemento referenciado. 
+        <br>
+        Os principais são:</p>
+            <ul>
+                <li>::before</li>
+                <p>É utilizado para acrescentar algo antes</p>
+                <li>::after</li>
+                <p>É utilizado para acrescentar algo depois</p>
+                <li>::first-letter</li>
+                <p>É utilizado na primeira letra do elemento</p>
+                <li>::first-inline</li>
+                <p>É utilizado na primeira linha do elemento</p>
+            </ul>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"></div>
+    <h1>Dados do usuário</h1>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Nome completo:</legend>
+        <div>
+          <input type="text" id="fname" name="fname"><br><br>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Email:</legend>
+        <div>
+            <input type="email" id="email" name="email"><br><br>
+        </div>
+        </fieldset>
+        <fieldset>
+          <legend>Telefone:</legend>
+      <div>
+        <input type="text" id="fname" name="fname" placeholder="(99) 9999-9999">
+        <small>Format: (83)99366-4632</small>
+      </div>
+      
+      </fieldset>
+      <fieldset>
+        <legend>Senha:</legend>
+      <div>
+        <input type="text" id="fname" name="fname"><br><br>
+      </div>
+      </fieldset>
+      <fieldset>
+      <legend>Sexo:</legend>
+        <div>
+          <input type="radio" id="feminino" name="sex_type" value="feminino">
+          <label  for="feminino">Feminino</label>
+          <input type="radio"  id="masculino" name="sex_type" value="masculino">
+          <label for="masculino">Masculino</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Data e hora de nascimento:</legend>
+        <div>
+          <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>UF:</legend>
+        <div>
+          <br><select id="uf_nas" name="uf_nas">
+            <option value="">  </option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Cor favorita:</legend>
+        <div>
+          <input type="color" id="favcolor" name="favcolor" value="#ffffff">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Data especial:</legend>
+        <div>
+          <input type="date" id="dataEspecial" name="dataEspecial">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Quantas pessoas têm sua família?:</legend>
+        <div>
+          <input type="number" id="quantity" name="quantity" min="1" max="100">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Que horas você costuma acordar?</legend>
+        <div>
+          <input type="time" id="hora" name="hora">
+        </div>
+      </fieldset>
+      <fieldset>
+           <legend>Adicione a url do seu perfil na rede social:</legend>
+           <div>
+            <input type="url" id="homepage" name="homepage">
+          </div>
+      </fieldset>
+      <fieldset>
+          <legend>Quais as suas preferências musicais:</legend>
+          <div>
+            <input type="checkbox" id="Rock" name="Rock">
+            <label for="Rock">Rock</label>
+            <input type="checkbox" id="Sertanejo" name="Sertanejo">
+            <label for="Sertanejo">Sertanejo</label>
+            <input type="checkbox" id="Pop" name="Pop">
+            <label for="Pop">Pop</label>
+            <input type="checkbox" id="Forró" name="Forró">
+            <label for="Forró">Forró</label>
+            <input type="checkbox" id="Pagode" name="Pagode">
+            <label for="Pagode">Pagode</label>
+            <input type="checkbox" id="Samba" name="Samba">
+            <label for="Samba">Samba</label>
+            <input type="checkbox" id="Indie" name="Indie">
+            <label for="Indie">Indie</label>
+            <input type="checkbox" id="Gospel" name="Gospel">
+            <label for="Gospel">Gospel</label>
+            <input type="checkbox" id="Funk" name="Funk">
+            <label for="Funk">Funk</label>
+            <input type="checkbox" id="MPB" name="MPB">
+            <label for="MPB">MPB</label>
+            <input type="checkbox" id="Jazz" name="Jazz">
+            <label for="Jazz">Jazz</label>
+            <input type="checkbox" id="Reggae" name="Reggae">
+            <label for="Reggae">Reggae</label>
+          </div>
+        </fieldset>
+        <fieldset>
+            <legend>Envie uma foto de perfil:</legend>
+            <div>
+                <input type="file" id="myfile" name="myfile"><br><br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <input type="submit" value="Submit">          
+                <input type="reset">  
+            </div>
+        </fieldset>
+      </fieldset>
+      </form>
+    </div>
+</body>
+</html>

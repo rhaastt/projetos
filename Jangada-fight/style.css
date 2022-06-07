@@ -1,0 +1,36 @@
+@charset "UTF-8";
+header {
+    background-color: black;
+}
+nav {
+
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+nav > a:hover {
+    color: rgb(0, 255, 34);
+    text-decoration: underline;
+}
+body {
+    background-color: rgb(34, 34, 34);
+}
+.principal-home {
+    width: 100%;
+    display: inline-flex;
+}
+#logo-principal {
+
+}
+.principal-home > article > h1 {
+    margin: 50px 15px 10px 2px;
+    color: white;
+   font-size: 100px;
+}
+.principal-home > article > p {
+    margin: 15px;
+    width: 550px;
+    color: white;
+}
